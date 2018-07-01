@@ -27,7 +27,7 @@
       <div class="form-item">■ 名前</div>
       <!-- nameを受け取りechoしましょう -->
       <?php
-      echo $POST_["name"];
+      echo $_POST["name"];
       ?>
 
       <div class="form-item">■ メールアドレス</div>
