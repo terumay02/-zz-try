@@ -1,127 +1,89 @@
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>プロトタイプ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-a {
-  text-decoration: none;
-}
+  </head>
+  <body>
+    <!-- ここにコードを書いていきましょう -->
+    <header>
+      <div class="container">
+
+        <div class="header-top">
+          <h1>会社名：XYZ株式会社</h1>
+        <div class="clear"></div>
+        </div>
+
+    <div class="header-titles">
+
+      <div class="header-title">
+        <a href="index.html"><img src="https://terumay02.github.io/sozai/blue-dot.png"></a>
+        <p>ホーム</p>
+      </div>
+
+      <div class="header-title">
+        <img src="https://terumay02.github.io/sozai/%E9%87%91%E9%AD%9A.png">
+        <p>●●●とは</p>
+      </div>
+      <div class="header-title">
+        <img src="https://terumay02.github.io/sozai/blue-dot.png">
+        <p>サービス一覧</p>
+      </div>
+      <div class="header-title">
+        <img src="https://terumay02.github.io/sozai/%E9%87%91%E9%AD%9A.png">
+        <p>リンク</p>
+      </div>
+
+      </div>
+     </div>
+    </header>
+ <!--  サイド    -->
+    <div class="bodybody">
+       <div class="container">
+
+      <div class="body-left">
+
+        <div class="sidebar">
+
+        <img src="https://terumay02.github.io/sozai/take.png">
+        <a href="member.html"><p>会員募集</p></a>
+        </div>
+
+        <div class="sidebar">
+        <img src="https://terumay02.github.io/sozai/take.png">
+         <a href="https://www.google.com/"><p>商品一覧</p></a>
+        </div>
+
+        <div class="sidebar">
+        <img src="https://terumay02.github.io/sozai/take.png">
+         <a href="#"><p>配送料</p></a>
+        </div>
+
+        <div class="sidebar">
+        <img src="https://terumay02.github.io/sozai/take.png">
+        <a href="#"><p>お問い合わせ</p></a>
+        </div>
+
+        <div class="sidebar">
+        <img src="https://terumay02.github.io/sozai/take.png">
+         <a href="#"><p>連絡先</p></a>
+        </div>
 
 
-*{
-  box-sizing:border-box;
-}
+      </div>
+      <div class="body-right">
+  <img src="https://terumay02.github.io/sozai/02.office.png">
+      </div>
 
+     </div>
+    </div>
 
+    <footer>
 
-.container{
-  width:1170px;
-}
-
-.header-title img{
-    width:100%;
-    height:65px;
-
-}
-
-.header-title{
-  position:relative;
-  cursor:pointer;
-  float:left;
-  width:25%;
-
-}
-
-.header-title p{
-  position:absolute;
-  top:0px;
-  left:30px;
-  font-size:20px;
-  color:grey;
-
-}
-
-.header-title:hover{
-  opacity:0.7;
-}
-
-.body-left{
-  /* background-color:yellow; */
-  margin-top:20px;
-  display:inline-block;
-  width:25%;
-  float:left;
-}
-
-.body-right{
-  width:75%;
-  height:100%;
-　background-color:red;
-  display:inline-block;
-/*　background-image:url(https://terumay02.github.io/sozai/02.office.png);　*/
-  background-size:cover;
-  margin-top:10px;
-
-}
-
-.body-right img{
-  width:100%;
-/*  margin-top:50px;*/
-  padding:10px;
-    float:left;
-}
-
-.sidebar{
-  position:relative;
-  cursor:pointer;
-
-  width:25%;
-
-}
-
-.sidebar img{
-    width:100%;
-    height:65px;
-
-}
-
-.sidebar{
-  position:relative;
-  cursor:pointer;
-  width:100%;
-  margin-bottom:10px;
-  padding:0 10px;
-}
-
-.sidebar p{
-  position:absolute;
-  top:0px;
-  left:30px;
-/*  line-height: 65px; */
-  font-size:20px;
-  color:green;
-
-}
-
-.sidebar:hover{
-  opacity:0.7;
-}
-
-footer{
-  height:70px;
-  width:1170px;
-  background-image:url(https://terumay02.github.io/sozai/01.%E6%B0%B4%E7%8E%89.png);
-  margin-top:10px;
-  clear:left;
-}
-
-.header-top{
-  height:70px;
-  width:1170px;
-  background-image:url(https://terumay02.github.io/sozai/01.%E6%B0%B4%E7%8E%89.png);
-  margin-bottom:5px;
-}
-
-.header-top h1{
-  padding:15px 30px;
-}
+    </footer>
+    <div class="clear"></div>
+  </body>
+</html>
