@@ -212,3 +212,24 @@ input, textarea {
 .main {
   width:100%;
 }
+
+/*　以下、商品一覧ページ用のｃｓｓ　　　*/
+
+.products{
+  padding:20px 40px;
+
+}
+
+.product{
+  float:left;
+  width:25%;
+  margin-bottom:30px;
+}
+
+.product img{
+    height:130px;
+}
+
+.product p{
+    text-align:center;
+}
