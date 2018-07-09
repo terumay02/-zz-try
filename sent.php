@@ -26,14 +26,14 @@
 
       <div class="form-item">■ 名前</div>
       <!-- nameを受け取りechoしましょう -->
-      <?php
-      echo $_POST["name"];
-      ?>
+      <p><?php
+      echo $_POST["name"]
+      ?></p>
 
       <div class="form-item">■ メールアドレス</div>
-     <?php
+     <p><?php
       echo $_POST["mail"];
-      ?>
+       ?></p>
 
       <div class="form-item">■ その他コメント</div>
      <?php
